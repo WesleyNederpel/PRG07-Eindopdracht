@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "PRG07-Eindopdracht",
+    "name": "BoulderBuddy",
     "slug": "PRG07-Eindopdracht",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,10 +19,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wesleynederpel.PRG07Eindopdracht"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab6fa2fa-db57-4556-8d07-43c114552cdf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ab6fa2fa-db57-4556-8d07-43c114552cdf"
     }
   }
 }
